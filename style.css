@@ -14,13 +14,13 @@ body *{
 }
 
 #container{
-  border: 1px solid yellowgreen;
   width: 360px;
-  margin: auto;
+  margin: 56px auto 0px;
 }
 
 #profile{
   text-align: center;
+  padding: 24px;
 }
 
 #profile img{
@@ -30,4 +30,5 @@ body *{
 #profile p{
   font-weight: 500;
   line-height: 24px;
+  padding-top: 8px;
 }
