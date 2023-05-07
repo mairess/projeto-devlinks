@@ -37,7 +37,7 @@ body *{
 /* links */
 ul{
   list-style: none;
-  
+
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -73,9 +73,22 @@ ul li a:hover{
 #social-links{
   display: flex;
   justify-content: center;
-  gap: 32px;
 
   padding: 24px 0;
 
   font-size: 24px;
+}
+
+#social-links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+#social-links a:hover{
+  background-color: rgba(255, 255, 255, 0.2);
 }
