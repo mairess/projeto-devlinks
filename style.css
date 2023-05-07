@@ -37,9 +37,12 @@ body *{
 /* links */
 ul{
   list-style: none;
+  
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0;
 }
 
 ul li a{
@@ -63,4 +66,16 @@ ul li a{
 ul li a:hover{
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
+}
+
+/* social links */
+
+#social-links{
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+
+  padding: 24px 0;
+
+  font-size: 24px;
 }
