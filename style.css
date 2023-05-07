@@ -92,3 +92,10 @@ ul li a:hover{
 #social-links a:hover{
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+footer{
+  padding: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+}
