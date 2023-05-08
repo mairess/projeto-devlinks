@@ -11,6 +11,7 @@
   --surface-color:rgba(255, 255, 255, 0.05);
   --surface-color-hover:rgba(0, 0, 0, 0.02);
   --highlight-color:rgba(255, 255, 255, 0.2);
+  --switch-bg-url:url(./assets/moon-stars.svg);
    
 }
 
@@ -21,6 +22,7 @@
   --surface-color:rgba(0, 0, 0, 0.05);
   --surface-color-hover:rgba(0, 0, 0, 0.02);
   --highlight-color:rgba(0, 0, 0, 0.1);
+  --switch-bg-url:url(./assets/sun.svg);
 }
 
 body{
@@ -37,7 +39,7 @@ body *{
   margin: 56px auto 0px;
   padding: 0 24px;
 }
-
+/* profile */
 #profile{
   text-align: center;
   padding: 24px;
@@ -51,6 +53,15 @@ body *{
   font-weight: 500;
   line-height: 24px;
   padding-top: 8px;
+}
+
+/* switch */
+#switch button{
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: none;
+  border-radius: 50%;
 }
 
 /* links */
